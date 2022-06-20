@@ -3,7 +3,7 @@
 This assignment is hosted on the link below.
 
 ```
-[Demo Link](https://got-assignment.netlify.app/)
+Demo Link - https://got-assignment.netlify.app/
 ```
 
 ### Important - Credentials
