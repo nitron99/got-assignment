@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import ProtectedRoutes from "./protectedRoutes";
 import PublicRoutes from "./publicRoutes";
 
@@ -17,6 +17,7 @@ const MainRoutes = () => (
     <Routes>
       {/* Public Routes --- Accessible without Authentication */}
       <Route path="/" element={<PublicRoutes />}>
+        <Route path="/" element={<Navigate replace to="auth" />} />
         <Route path="/auth" element={<AuthPage />} />
       </Route>
 
