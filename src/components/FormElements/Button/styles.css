@@ -1,0 +1,40 @@
+
+.ripple-btn{
+    width: 100%;
+    max-height: 7rem;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 1.2rem 3.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    border-radius: 4rem;
+    border: none;
+    background-color: rgba(237, 19, 91, 0.8);
+}
+
+.ripple-btn span{
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+
+    width: 10rem;
+    height: 10rem;
+    margin-top: -5rem;
+    margin-left: -5rem;
+
+    animation: ripple 1s ;
+    opacity: 0;
+}
+
+@keyframes ripple {
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(10);
+    }
+}

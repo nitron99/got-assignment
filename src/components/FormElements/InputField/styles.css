@@ -1,0 +1,21 @@
+.input-container{
+    height: 7rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.label{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.input{
+  height: 5rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 0.1rem;
+}
