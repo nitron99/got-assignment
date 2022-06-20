@@ -11,7 +11,7 @@ This assignment is hosted on the link below.
 This website needs authenication.
 
 ```
-Email - "admin"<br/>
+Email - "admin"
 Password - "admin"
 ```
 
