@@ -19,7 +19,7 @@ const HomePage = () => {
   return (
     <div data-testid="home">
       <div className='homeCard item1 skeleton'>
-        {loading && <img src={"https://assets.vogue.com/photos/5f6254938bf8cfd653392788/16:9/w_1280,c_limit/social-holding.jpg"} alt="" id='homeImage'/>}
+        {loading && <img src={"https://c4.wallpaperflare.com/wallpaper/28/832/21/ultrawide-8k-no-mans-sky-poster-wallpaper-thumb.jpg"} alt="" id='homeImage'/>}
       </div>
       <div className='homeCard item2'>
         <div>

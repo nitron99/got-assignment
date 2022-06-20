@@ -22,7 +22,7 @@ const SearchPage = () => {
          />
       {query !== "" && 
         <div className='homeCard item3 skeleton'>
-         {loading && <img src={"http://cdn.shopify.com/s/files/1/0510/7489/articles/MachinCreationsInc-seotool-28081-TheDifferentTypes-BlogBanner1_1024x1024.jpg?v=1576163202"} alt="" id='homeImage'/>}
+         {loading && <img src={"https://c4.wallpaperflare.com/wallpaper/28/832/21/ultrawide-8k-no-mans-sky-poster-wallpaper-thumb.jpg"} alt="" id='homeImage'/>}
        </div>
       }
     </div>
